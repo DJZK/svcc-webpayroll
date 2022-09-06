@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.employee-h1{
+    font-size: 2rem;
+}
+.emp1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+  header {
+    grid-area: header;
+    }
+  main {
+    grid-area: main;
+  }
+  
+  aside {
+    grid-area: aside;
+  }
+  
+
+  
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: "header header header"
+                         "main main aside";
+    grid-template-rows: minmax(auto, max-content);
+  }
+  
+  /* This is just color and spacing stuff */
+
+  
+  main, aside {
+    background-color: #fafafa;
+    height: auto;
+  }

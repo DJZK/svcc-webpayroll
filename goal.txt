@@ -1,0 +1,25 @@
+Goal: 
+
+    login:
+	*emp_no = "On_process"
+	*emp_pass
+	
+    Crud:
+	*Delete
+	*Update
+	*View
+
+   Email:
+	*Compose
+	*Sending_account
+	*notif_ip
+	*notof_payslip_send
+	
+   Inner Join:
+	*Employee and Payroll
+	*Payslip and Payroll
+	
+   Ip Address:
+	*get_Ip
+	*up_new_user_Ip
+	*Ip_change	 				
